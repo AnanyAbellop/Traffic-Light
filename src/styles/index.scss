@@ -2,19 +2,28 @@
 
 
 .lights{
-//width:100px ;
-height: 200px;
 background-color: black;
+padding-top: 10px;
+padding-bottom: 10px;
+
 }
 
-/* 
+.lights input{
+    width:80px;
+    height:80px;
+}
 
-    You can write your own styles here...
+#green{
+    background-color: green;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+
+#red{
+    background-color:red;
+}
+
+
+#yellow{
+    background-color: yellow;
+}
