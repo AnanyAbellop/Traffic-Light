@@ -1,29 +1,50 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 
-.lights{
+.container{
 background-color: black;
 padding-top: 10px;
 padding-bottom: 10px;
+width:140px;
+
+
 
 }
 
-.lights input{
-    width:80px;
-    height:80px;
-}
-
-#green{
-    background-color: green;
-    
-}
 
 
 #red{
-    background-color:red;
+ // background-color: red;
+  border-radius: 100%;
+  width:80px;
+  height:80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+background-color: red;
 }
 
-
 #yellow{
-    background-color: yellow;
+//background-color: yellow;
+margin: 15px;
+border-radius: 100%;
+width:80px;
+height:80px;
+
+background-color: yellow;
+}
+
+#green{
+//background-color: green;
+border-radius: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+width:80px;
+height:80px;
+background-color: green;
+
+}
+
+.light-shadow {
+    box-shadow: 0px 0px 9px 4px #747DE8;
 }
